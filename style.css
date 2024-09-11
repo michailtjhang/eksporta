@@ -209,6 +209,60 @@ nav ul li a {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
+/* Produk dan Layanan */
+.products {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.products h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.products p {
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.products-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.product-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.product-col h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.product-col p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.product-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
 /* Organisasi */
 .organ{
     display: flex;
